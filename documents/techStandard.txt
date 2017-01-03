@@ -1,0 +1,34 @@
+what does it do
+	half blog half personal demonstration website
+roles
+	viewer/can not modify anything
+
+
+what to show
+	Projects:
+		construction website
+		ABC Order
+	code I have written
+	blogs
+	photos I took
+what user can do
+	write/edit/delete posts
+	insert multimedia into posts
+	upload images
+
+should be compatible with mobile user
+
+page responsibilities
+	home page
+		display summarize of blogs I write/
+		display photo selection I uploaded/
+		display brief self intro/
+		display contact field
+	blog page
+		others:
+			browse blogs/read full blogs/comment on blogs
+		myself:
+			create blog with access permissions/delete blog/delete comment
+			
+
+
