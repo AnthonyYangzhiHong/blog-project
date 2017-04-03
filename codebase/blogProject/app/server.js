@@ -33,6 +33,15 @@ router.route('/api/posts')
       res.json({message: 'Post created'});
     });
   });
+
+router.route('/api/posts/:id')
+  .get(function(req, res) {
+    Post.findById(req.params.id, function(err, post) {
+      if (err)
+        res.send(err);
+      res.json(post);
+    });
+  });
 // Handles all routes so you do not get a not found error
 router.route('*')
   .get(function(req, res) {

@@ -11,7 +11,7 @@ class PostsList extends Component {
       posts.map(post => {
         return(
           <div className="well-sm" key={post._id}>
-            <Link to={`posts/:${post._id}`}>{post.title}</Link>
+            <Link to={`posts/${post._id}`}>{post.title}</Link>
           </div>
         )
       })

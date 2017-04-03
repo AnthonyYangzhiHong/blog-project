@@ -16,7 +16,7 @@ const mapDispatchToProps = (dispatch) => {
       dispatch(fetchPosts())
     }
   }
-}
+};
 
 const PostsListContainer = connect(
   mapStateToProps,
